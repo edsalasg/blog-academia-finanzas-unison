@@ -7,63 +7,94 @@
 <meta name="author" content="esalas@eduardosalas.com">
 <title>Indicadores — Academia de Finanzas</title>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Carlito:ital,wght@0,400;0,700;1,400&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap">
 <style>
-body{margin:0;font-family:Calibri,Carlito,Arial,sans-serif;color:#1A1A1A;background:#FFFFFF;font-size:17px}
+body{margin:0;font-family:Montserrat,Arial,sans-serif;color:#1A1A1A;background:#FFFFFF;font-size:17px}
 h1,h2,h3,nav,.mont{font-family:Montserrat,Arial,sans-serif}
 .hero{background-color:#0C1743;background-image:url(assets/textura_azul.jpg);background-size:437px auto;background-repeat:repeat}
-a{color:#24398A}a:hover{color:#20305A}
+a{color:#0045A5}a:hover{color:#1F1F25}
 </style>
 
 <style>*{box-sizing:border-box} img{max-width:100%;height:auto} button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #E1B73D;outline-offset:2px}</style>
+<style>
+/* Homologación con administracion.unison.mx */
+body{font-family:Montserrat,sans-serif!important;font-size:16px;color:#202020!important}
+h1,h2,h3,.mont,button,input{font-family:Montserrat,sans-serif!important}
+a{color:#0045A5}
+.dm-maqueta{background:#F5F6F7;color:#3C3C3C;font-size:12px;text-align:center;padding:4px 12px;border-bottom:1px solid #DDD}
+.dm-top{background:#F8F8F8}
+.dm-top-in{display:flex;justify-content:space-between;align-items:center;padding:6px 28px}
+.dm-toplinks{display:flex;gap:16px}.dm-toplinks a{font-size:12px;font-weight:600;color:#1F1F25;text-decoration:none}
+.dm-icon{background:none;border:0;cursor:pointer;min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center}
+.dm-header{background:#FFF;box-shadow:0 2px 6px rgba(0,0,0,.08);padding:8px 14px 10px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.dm-brand{display:flex;gap:16px;align-items:center}
+.dm-site-title{margin:0;font-family:"Zapf Humanist 601 BT","Optima","Candara","Segoe UI",sans-serif!important;font-size:28px;font-weight:700;color:#000}
+.dm-site-desc{margin:2px 0 0;font-family:"Zapf Humanist 601 BT","Optima","Candara","Segoe UI",sans-serif!important;font-size:20px;color:#444}
+.dm-menu{flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 14px;margin-top:6px}
+.dm-item{font-size:10px;text-transform:uppercase;color:#1F1F25!important;text-decoration:none;display:inline-flex;gap:4px;align-items:center;padding:4px 0}
+.dm-on{font-weight:700;border-bottom:2px solid #0045A5}
+.dm-burger{display:none}
+.dm-footer{background:#001149;color:#CCC;margin-top:64px;text-align:center}
+.dm-blogline{padding:22px 16px 0;font-size:14px;line-height:1.6;color:#CCC}.dm-blogline a{color:#FFF}
+.dm-foot-img{padding:24px 0}
+.dm-foot-bottom{border-top:1px solid #242424;padding:16px;font-size:14px;color:#CCC}
+/* Título de página como en el sitio: mayúsculas, 24 px, línea gris debajo */
+.hero{background:#FFF!important;color:#202020!important}
+.hero h1{color:#000!important;font-size:24px!important;font-weight:700!important;text-transform:uppercase;border-bottom:1px solid #DDD;padding-bottom:15px;line-height:1.2!important}
+.hero p{color:#202020!important}
+.hero p.mont{color:#0045A5!important;font-size:12px!important}
+.hero nav a{background:#FFF!important;color:#0045A5!important;border:1px solid #0045A5!important}
+.hero nav a[style*="#E1B73D"]{background:#0045A5!important;color:#FFF!important}
+.hero a[style*="border: 2px solid #E1B73D"]{border-color:#0045A5!important}
+@media (max-width:820px){
+ .dm-burger{display:flex}.dm-menu{display:none;flex-direction:column;align-items:flex-start;gap:0}.dm-menu.dm-open{display:flex}
+ .dm-item{font-size:13px;padding:12px 4px;width:100%;border-bottom:1px solid #EEE}
+ .dm-site-title{font-size:18px}.dm-site-desc{font-size:13px}.dm-brand img{width:48px;height:48px}
+ .dm-toplinks{display:none}
+}
+</style>
 </head>
 <body>
 
-<div style="background: #FFFFFF"><div style="background: #E1B73D; color: #20305A; font-size: 13px; font-weight: 700; text-align: center; padding: 8px 16px; letter-spacing: 0.5px">MAQUETA V2 · PROPUESTA PARA DISCUSIÓN · No es el sitio oficial</div>
-<div style="background: #F8F8F8; border-bottom: 1px solid #ECECEC">
-<div style="max-width: 1240px; margin: 0 auto; padding: 10px 24px; display: flex; gap: 20px; flex-wrap: wrap; font-size: 13px; font-weight: 600">
-<a href="#" style="color: #1A1A1A; text-decoration: none">INICIO</a><a href="#" style="color: #1A1A1A; text-decoration: none">UNISON</a><a href="#" style="color: #1A1A1A; text-decoration: none">FACULTAD</a><a href="#" style="color: #1A1A1A; text-decoration: none">TRANSPARENCIA</a>
-</div></div>
-<header style="max-width: 1240px; margin: 0 auto; padding: 16px 24px 8px; display: flex; flex-direction: column; gap: 14px">
-<div style="display: flex; gap: 18px; align-items: center; flex-wrap: wrap">
-<img src="assets/da_logo.png" alt="Universidad de Sonora · DA · Departamento de Administración" style="height: 74px; width: auto; display: block">
-</div>
-<nav aria-label="Menú del Departamento" style="display: flex; flex-wrap: wrap; gap: 6px 22px; justify-content: flex-end"><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">DEPARTAMENTO</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">ALUMNOS</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">PERSONAL</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">OFERTA EDUCATIVA</a><a href="#" style="font-size: 12px; font-weight: 700; color: #20305A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid #E1B73D">ACADEMIAS</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">CUERPOS ACADÉMICOS</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">COLEGIO DEPARTAMENTAL</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">LIGAS DE INTERÉS</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">FORMATOS</a><a href="#" style="font-size: 12px; font-weight: 500; color: #1A1A1A; text-decoration: none; padding: 6px 0; border-bottom: 3px solid transparent">CONGRESO</a></nav>
-</header>
-<div style="border-top: 1px solid #C5C5C5"><div style="max-width: 1240px; margin: 0 auto; padding: 12px 24px; font-size: 13px"><a href="#" style="color: #24398A; text-decoration: none">Inicio</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="#" style="color: #24398A; text-decoration: none">Academias</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="#" style="color: #24398A; text-decoration: none">Academia de Finanzas</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="index.html" style="color: #24398A; text-decoration: none">Blog</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <span style="color: #1A1A1A; font-weight: 600">Indicadores</span></div></div>
+<div style="background: #FFFFFF"><div class="dm-maqueta">Maqueta para evaluación · No es el sitio oficial del Departamento</div>
+<div class="dm-top"><div class="dm-top-in"><nav aria-label="Enlaces institucionales" class="dm-toplinks"><a href="#">INICIO</a><a href="#">UNISON</a><a href="#">FACULTAD</a><a href="#">TRANSPARENCIA</a></nav>
+<button type="button" class="dm-icon" aria-label="Buscar"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div></div>
+<header class="dm-header"><div class="dm-brand">
+<img src="assets/logo_unison_sin_tit.png" width="80" height="80" alt="Escudo de la Universidad de Sonora">
+<div><p class="dm-site-title">Departamento de Administración</p><p class="dm-site-desc">Facultad Interdisciplinaria de Ciencias Económicas y Administrativa</p></div></div>
+<button type="button" class="dm-icon dm-burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="dm-menu" onclick="var m=document.getElementById('dm-menu');var o=m.classList.toggle('dm-open');this.setAttribute('aria-expanded',o)"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav id="dm-menu" class="dm-menu" aria-label="Menú del Departamento"><a href="#" class="dm-item">DEPARTAMENTO<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">ALUMNOS<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">PERSONAL<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">OFERTA EDUCATIVA<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item dm-on">ACADEMIAS<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">CUERPOS ACADÉMICOS</a><a href="#" class="dm-item">COLEGIO DEPARTAMENTAL<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">LIGAS DE INTERÉS<svg aria-hidden="true" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#1F1F25" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></a><a href="#" class="dm-item">FORMATOS</a><a href="#" class="dm-item">CONGRESO</a></nav></header>
+
+<div style="border-top: 1px solid #C5C5C5"><div style="max-width: 1240px; margin: 0 auto; padding: 12px 24px; font-size: 13px"><a href="#" style="color: #0045A5; text-decoration: none">Inicio</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="#" style="color: #0045A5; text-decoration: none">Academias</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="#" style="color: #0045A5; text-decoration: none">Academia de Finanzas</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <a href="index.html" style="color: #0045A5; text-decoration: none">Blog</a> <span aria-hidden="true" style="color: #4A4A4A">›</span> <span style="color: #1A1A1A; font-weight: 600">Indicadores</span></div></div>
 <section class="hero" style="color: #FFFFFF">
 <div style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 36px; display: flex; flex-direction: column; gap: 16px">
 <p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 2px; color: #E1B73D">BLOG DE LA ACADEMIA DE FINANZAS</p>
 <h1 style="margin: 0; font-size: 42px; font-weight: 800">Indicadores</h1>
 <p style="margin: 0; font-size: 19px; line-height: 1.55; color: #E6EAF2; max-width: 780px">Boletín quincenal: tres datos de Banxico, INEGI y la Reserva Federal, explicados para estudiantes y empresas.</p>
-<nav aria-label="Secciones del blog" style="display: flex; flex-wrap: wrap; gap: 8px"><a href="herramientas.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Herramientas</a><a href="finanzas-en-un-esquema.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Finanzas en un esquema</a><a href="indicadores.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: #E1B73D; color: #20305A">Indicadores</a><a href="integrantes.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Integrantes</a></nav>
+<nav aria-label="Secciones del blog" style="display: flex; flex-wrap: wrap; gap: 8px"><a href="herramientas.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Herramientas</a><a href="finanzas-en-un-esquema.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Finanzas en un esquema</a><a href="indicadores.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: #E1B73D; color: #1F1F25">Indicadores</a><a href="integrantes.html" style="font-size: 14px; font-weight: 600; text-decoration: none; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; border: 1px solid rgba(255,255,255,0.35)">Integrantes</a></nav>
 </div></section><main style="max-width: 1240px; margin: 0 auto; padding: 36px 24px 0; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
 <article style="flex: 999 1 600px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
-<p class="mont" style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #24398A">BOLETÍN NÚM. 0 · 9 DE NOVIEMBRE DE 2026</p>
-<h2 style="margin: 0; font-size: 32px; line-height: 1.25; color: #20305A">Banxico bajó su tasa a 6.25% y la brecha con EUA quedó en 2.25 puntos: tres datos para tu empresa</h2>
+<p class="mont" style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; color: #0045A5">BOLETÍN NÚM. 0 · 9 DE NOVIEMBRE DE 2026</p>
+<h2 style="margin: 0; font-size: 32px; line-height: 1.25; color: #1F1F25">Banxico bajó su tasa a 6.25% y la brecha con EUA quedó en 2.25 puntos: tres datos para tu empresa</h2>
 <img src="assets/brecha.jpg" alt="Gráfica: tasa objetivo de Banxico y de la Reserva Federal, 2016 a 2026; la brecha de 2.25 puntos porcentuales es la más baja del periodo" style="width: 100%; border: 1px solid #C5C5C5; border-radius: 12px">
 <p style="margin: 0; font-size: 18px; line-height: 1.65">El Banco de México (Banxico) redujo su tasa objetivo a 6.25% a partir del 6 de noviembre de 2026. La Reserva Federal de EUA la subió en septiembre a un rango de 3.75% a 4.00%. La diferencia entre ambas, 2.25 puntos porcentuales, es la más baja de 2016 a la fecha.</p>
 <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px">
-<div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #24398A">DATO 1</p><p style="margin: 0; font-size: 17px; font-weight: 700">Lo que cuesta el crédito</p></div><div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #24398A">DATO 2</p><p style="margin: 0; font-size: 17px; font-weight: 700">El tipo de cambio</p></div><div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #24398A">DATO 3</p><p style="margin: 0; font-size: 17px; font-weight: 700">Los precios</p></div>
+<div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #0045A5">DATO 1</p><p style="margin: 0; font-size: 17px; font-weight: 700">Lo que cuesta el crédito</p></div><div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #0045A5">DATO 2</p><p style="margin: 0; font-size: 17px; font-weight: 700">El tipo de cambio</p></div><div style="background: #F1F1F1; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><p class="mont" style="margin: 0; font-size: 13px; font-weight: 700; color: #0045A5">DATO 3</p><p style="margin: 0; font-size: 17px; font-weight: 700">Los precios</p></div>
 </div>
 <p style="margin: 0; font-size: 14px; color: #4A4A4A">Mtro. Eduardo Salas García · Fuentes: Banxico, Reserva Federal</p>
 </article>
 <aside style="flex: 1 1 300px; min-width: 0; border: 1px solid #C5C5C5; border-radius: 14px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
-<h2 style="margin: 0; font-size: 20px; color: #20305A">Números anteriores</h2>
+<h2 style="margin: 0; font-size: 20px; color: #1F1F25">Números anteriores</h2>
 <p style="margin: 0; font-size: 15px; color: #4A4A4A">Este es el primer número.</p>
-<h2 style="margin: 8px 0 0; font-size: 20px; color: #20305A">Próximo boletín</h2>
+<h2 style="margin: 8px 0 0; font-size: 20px; color: #1F1F25">Próximo boletín</h2>
 <p style="margin: 0; font-size: 15px; color: #4A4A4A">[Fecha por definir]</p>
 </aside>
 </main>
-<footer style="background: #F1F1F1; color: #1A1A1A; margin-top: 64px; border-top: 6px solid #24398A">
-<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px; display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-between; align-items: center">
-<div style="display: flex; flex-direction: column; gap: 10px; max-width: 620px">
-<img src="assets/da_logo.png" alt="Universidad de Sonora · DA · Departamento de Administración" style="height: 56px; width: auto; align-self: flex-start">
-<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #4A4A4A">Blog de la Academia de Finanzas. Contenido de libre acceso, sin publicidad, con fuentes citadas y autoría de cada docente.</p>
-<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #4A4A4A"><a href="documentacion/index.html">Sobre esta maqueta</a> · Comité editorial: [por designar] · Licencia: [por definir] · Contacto: [por definir]</p>
-</div>
-<img src="assets/sello_azul.png" alt="Sello de la Administración Institucional 2025-2030" style="height: 96px; width: auto">
-</div></footer>
+<footer class="dm-footer">
+<div class="dm-blogline">Blog de la Academia de Finanzas · Contenido de libre acceso, sin publicidad, con fuentes citadas · <a href="documentacion/index.html">Sobre esta maqueta</a> · Comité editorial: [por designar]</div>
+<div class="dm-foot-img"><img src="assets/logo_administracion25-30_blanco.png" width="106" height="150" alt="Logo Administración Institucional 2025-2030"></div>
+<div class="dm-foot-bottom">2026 Departamento de Administración | Facultad Interdisciplinaria de Ciencias Económicas y Administrativa | Universidad de Sonora</div>
+</footer>
 </div>
 
 
